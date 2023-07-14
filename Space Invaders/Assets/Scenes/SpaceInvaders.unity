@@ -930,7 +930,30 @@ MonoBehaviour:
   - {fileID: 7739693565908276651, guid: c28450315e088714eb335b53b5ef6a65, type: 3}
   rows: 5
   columns: 11
-  speed: 1
+  speed:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.25
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 8
+      inSlope: 22.487959
+      outSlope: 22.487959
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.035763383
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!4 &1254161985
 Transform:
   m_ObjectHideFlags: 0
