@@ -928,8 +928,10 @@ MonoBehaviour:
   - {fileID: 603930555794396569, guid: b3230ffd3902ef446ab140a7b8a990fb, type: 3}
   - {fileID: 603930555794396569, guid: b3230ffd3902ef446ab140a7b8a990fb, type: 3}
   - {fileID: 7739693565908276651, guid: c28450315e088714eb335b53b5ef6a65, type: 3}
+  missilePrefab: {fileID: 8301599342422012568, guid: bf020934441beaa40859ca7d1c15bfdd, type: 3}
   rows: 5
   columns: 11
+  missileAttackRate: 0
   speed:
     serializedVersion: 2
     m_Curve:
