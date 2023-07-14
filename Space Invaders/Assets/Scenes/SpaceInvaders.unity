@@ -304,7 +304,7 @@ GameObject:
   - component: {fileID: 254674563}
   - component: {fileID: 254674565}
   - component: {fileID: 254674566}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -416,6 +416,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3d47ee9d44960b429b5e8266474d087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  laserPrefab: {fileID: -2651411535319590920, guid: 29626a43b9b303b429b660ec08937819, type: 3}
+  speed: 5
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -920,14 +922,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09cbf9b825d229247b170ea0644c2a49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rows: 5
-  columns: 11
   prefabs:
   - {fileID: 8880098526330754036, guid: a99ce7a5bdee1134a83c571af823c372, type: 3}
   - {fileID: 8880098526330754036, guid: a99ce7a5bdee1134a83c571af823c372, type: 3}
   - {fileID: 603930555794396569, guid: b3230ffd3902ef446ab140a7b8a990fb, type: 3}
   - {fileID: 603930555794396569, guid: b3230ffd3902ef446ab140a7b8a990fb, type: 3}
   - {fileID: 7739693565908276651, guid: c28450315e088714eb335b53b5ef6a65, type: 3}
+  rows: 5
+  columns: 11
   speed: 1
 --- !u!4 &1254161985
 Transform:

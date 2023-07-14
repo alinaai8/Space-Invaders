@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class Invaders : MonoBehaviour
 {
+    public Invader[] prefabs;
     public int rows = 5;
     public int columns = 11;
-    public Invader[] prefabs;
     public float speed = 1.0f;
     private Vector3 _direction = Vector2.right;
 
